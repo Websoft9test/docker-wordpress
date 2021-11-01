@@ -44,4 +44,4 @@ volumes:
     
 networks:
   default:
-      name: "apps"
+      name: ${APP_NETWORK}
