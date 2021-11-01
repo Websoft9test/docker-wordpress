@@ -21,7 +21,7 @@ services:
 
   mysql:
     image: mysql:${DB_MYSQL_VERSION}
-    container_name: wordpress-mysql
+    container_name: ${APP_CONTAINER_NAME}-mysql
     restart: always
     ports:
      - ${DB_MYSQL_PORT}:3306
