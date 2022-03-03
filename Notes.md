@@ -1,6 +1,3 @@
-## About
+# WordPress
 
-This repository is forked from ONLYOFFICE/Docker-CommunityServer, we have the following modifications are provided
-
-* replace README.md
-* add README-zh.md, CHANGELOG.md, Note.md, License.md, docker-compose.yml,.env, src, .github folder
+[Bedrock](https://docs.roots.io/bedrock) 是部署 WP 的一个重要开源工具
