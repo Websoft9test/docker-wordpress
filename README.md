@@ -79,10 +79,9 @@ You should modify ports at [docker-compose file](docker-compose-production.yml) 
 
 #### Does installation wizard exist?  
 Yes, you always need to configure database  
-
 ### Usage instructions
 
-You can point your browser to: *`http://Instance's Internet IP:9001`*  
+You can point your browser to: *`http://Instance's Internet IP:port`*  
 
 The following is the information that may be needed during use
 
