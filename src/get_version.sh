@@ -1,1 +1,1 @@
-sudo echo "wordpress version:" $(cat /data/apps/wordpress/wp-admin/about.php |grep "Check out the latest version" |  awk '{print $28}') |sudo tee -a /data/logs/install_version.txt
+sudo echo "wordpress version:" $(docker exec -i $1 cat /var/www/html/wp-includes/version.php |grep "wp_version ="|awk -F"= " '{print $2}') |sudo tee -a /data/logs/install_version.txt
